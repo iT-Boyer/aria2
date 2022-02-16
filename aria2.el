@@ -241,7 +241,7 @@ If nil Emacs will reattach itself to the process on entering downloads list."
             :type string
             :docstring "Url on which aria2c listens for JSON RPC requests.")
         (secret :initarg :secret
-            :initform aria2-rcp-secret
+            :initform (identity aria2-rcp-secret)
             :type string
             :docstring "Secret value used for authentication with the aria2c process, for use with --rpc-secret= switch.")
         (pid :initarg :pid
