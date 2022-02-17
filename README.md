@@ -1,3 +1,4 @@
+[更新最新版本方案](https://emacs-china.org/t/defclass-invalid-slot-type-secret-string-aria2-rpc-secret/14217/15?u=huos3203)
 # README                                                                                                                    
 ### This is aria2, a major mode for controlling [aria2c](http://aria2.sourceforge.net/) downloader ###
 Currrently supported download types are: bittorrent, magnet, meta4, ftp, http, https files (basically what aria2c supports).
